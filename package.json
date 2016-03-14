@@ -1,7 +1,7 @@
 {
   "name": "pm2-health-check",
-  "version": "1.0.0",
-  "description": "This is a pm2 health check middleware for the express framework",
+  "version": "0.0.1",
+  "description": "This is a pm2 health check endpoint for the express framework",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
@@ -17,9 +17,12 @@
     "elb"
   ],
   "author": "A K M Zahiduzzaman <zhd.zmn@gmail.com> (www.zahiduzzaman.com)",
-  "license": "\tMIT",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhdzmn/pm2-health-check/issues"
   },
-  "homepage": "https://github.com/zhdzmn/pm2-health-check#readme"
+  "homepage": "https://github.com/zhdzmn/pm2-health-check#readme",
+  "dependencies": {
+    "pm2": "^1.0.2"
+  }
 }

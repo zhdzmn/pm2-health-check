@@ -1,4 +1,5 @@
 module.exports = function (app, opts) {
+  if (!opts) { opts = {}; }
   app.get(opts.url || '/health', function (req, res) {
     var pm2 =  require('pm2');
     pm2.connect(function (err) {

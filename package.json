@@ -4,7 +4,7 @@
   "description": "This is a pm2 health check endpoint for the express framework",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha -r ./test/mochaHelper.js ./test/**/*-spec.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,14 @@
   },
   "homepage": "https://github.com/zhdzmn/pm2-health-check#readme",
   "dependencies": {
-    "pm2": "^1.0.2"
+    "pm2": "1.0.2"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "express": "4.13.4",
+    "mocha": "2.4.5",
+    "sinon": "1.17.3",
+    "sinon-chai": "2.8.0",
+    "supertest": "1.2.0"
   }
 }

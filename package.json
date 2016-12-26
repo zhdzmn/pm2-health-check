@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/zhdzmn/pm2-health-check#readme",
   "dependencies": {
-    "pm2": "1.0.2"
+    "pm2": "2.2.2"
   },
   "devDependencies": {
     "chai": "3.5.0",

@@ -12,3 +12,5 @@ pm2HealthCheck(app, {url: '/health-check-gizmo', optimistic: false});
 
 this would mount the health check endpoint to the `<app_host>:<app_port>/health-check-gizmo`
 
+## node dependencies:
+check the travis.yml for the supported node versions of the package in the current version

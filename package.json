@@ -1,6 +1,6 @@
 {
   "name": "pm2-health-check",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "This is a pm2 health check endpoint for the express framework",
   "main": "index.js",
   "scripts": {
